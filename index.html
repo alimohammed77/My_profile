@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <title>Portfolio-Ali</title>
+
+
+    <!-- scroll  -->
+    <style>
+        #scrollUpButton {
+            font-size: 10px;
+            margin-right: var(--mb-2);
+            color: white;
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 10px;
+            border: none;
+            outline: none;
+            background-color: var(--first-color);
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+
+        }
+
+        #scrollUpButton:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Ali</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">الصفحة الرئيسية</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">عني</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">مهارات</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">عمل</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">اتصال</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <div class="loader home__data home__title"></div>
+                <h1 class="home__title">مرحباً<br>انا <span class="home__title-color">علي </span><br> مصمم الويب <br> و
+                    مطور</h1>
+
+                <a href="#contact" class="button">اتصال</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://wa.me/967773412760" target="_blank" class="home__social-icon">
+                    <i class="bx bxl-behance uil uil-whatsapp"></i></a>
+
+                <a href="https://www.instagram.com/king._1li" target="_blank" class="home__social-icon"><i
+                        class="bx bxl-behance uil uil-instagram"></i></a>
+
+                <a href="https://github.com/alimohammed77" target="_blank" class="home__social-icon">
+                    <i class="bx bxl-behance uil uil-github-alt"></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="60" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">عني</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">انا علي </h2>
+                    <p class="about__text">
+                        أسمي علي محمد علي وأنا أساعد العلامات التجارية على النمو
+                        أنا مطور واجهات ويب متحمس ومبدع،
+                        أسعى دائمًا لتصميم واجهات ويب جذابة وفعالة تلبي احتياجات العملاء.
+                        أتميز بالاتصال الجيد والتعاون المثمر مع العملاء والفرق،
+                        وأحرص دائمًا على فهم المتطلبات بشكل كامل وتقديم الحلول الملائمة.
+                        أهتم بالتفاصيل والجودة،
+                        وأنا على دراية بأحدث التقنيات والأدوات المستخدمة في تصميم واجهات الويب.
+                        بفضل اهتمامي بالتعلم المستمر والتحديثات الحديثة،
+                        أعمل على تطوير مهاراتي وتوفير أفضل الخدمات لعملائي.
+                        إذا كنت ترغب في شراكة مع مطور واجهات الويب موهوب ومحترف، فأنا هنا لمساعدتك في تحقيق أهدافك
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">مهارات</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">مهارات احترافية</h2>
+                    <p class="skills__text">
+                        بعض من المهارات الذي اجيدها في جانب البرمجة والتكنولوجيا, باعتبار ان هاذي المهارات والنسب موقتة
+                        في الوقت الحالي, وانا حالياً في مرحلة تطور في عصر الحاسوب والبرمجة والتكنولوجيا
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="uil uil-html5-alt skills__icon"></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="uil uil-css3-simple skills__icon"></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="uil uil-java-script skills__icon"></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="uil uil-browser skills__icon"></i>
+                            <span class="skills__name">C# - ASP.Net - ASPCORE - Gamg</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="uil uil-github-alt skills__icon"></i>
+                            <span class="skills__name">Git-GitHub</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work0.png" alt="" class="skills__img">
+                </div>
+            </div>
+
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">عمل</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/work1.jpeg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work2.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work3.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work4.webp" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work5.jpeg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work6.jpeg" alt="">
+                </a>
+            </div>
+
+            <div>
+                <a href="#">
+                    <h1 class="section-title"> قريباً سوف تتوفر بقية الاعمال والتفاصيل عنها </h1>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">اتصال</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="الاسم" class="contact__input">
+                    <input type="mail" placeholder="الايميل" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="تواصل" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+
+
+    <footer>
+        <div class="footer-container ">
+            <div class="footer-content">
+                <h3>تواصل معي</h3>
+                <p>Email: am7408723@gmail.com</p>
+                <p>Phone1: +967773412760</p>
+                <p>Phone2: +967737632561</p>
+            </div>
+            <div class="footer-content">
+                <h3>تابعني على</h3>
+                <ul>
+                    <li><a
+                            href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BSVYD92hBRfWiQDlzZl%2FBKQ%3D%3D">لينكد
+                            ان</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/king._1li">انستجرام</a></li>
+                    <li><a href="https://twitter.com/king_1li">تويتر</a></li>
+                    <li><a href="https://github.com/alimohammed77">جيثب</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>الموقع</h3>
+                <p>اليمن - عدن - القاهرة</p>
+                <p>شارع الادوية</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <footer class="footer ">
+        <p class="footer__title">Ali</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/ali380298" target="_blank" class="footer__icon">
+                <i class='bx bxl-facebook'></i></a>
+
+            <a href="https://www.instagram.com/king._1li" target="_blank" class="footer__icon">
+                <i class='bx bxl-instagram'></i></a>
+
+            <a href="https://twitter.com/king_1li" target="_blank" class="footer__icon">
+                <i class='bx bxl-twitter'></i></a>
+
+            <a href="https://mail.google.com/mail/u/0/am7408723@gmai" target="_blank" class="footer__icon">
+                <i class="uil uil-envelope-alt"></i></a>
+        </div>
+        <p class="footer__copy">&#169; Ali . كل الحقوق محفوظة</p>
+    </footer>
+
+
+
+
+    <!-- ################## scroll  ################### -->
+
+    <button onclick="scrollToTop()" id="scrollUpButton" title="Go to top">
+        <i class="uil uil-arrow-up "></i>
+    </button>
+    <script>
+        // Show the scroll up button when the user scrolls down 20px from the top of the document
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollUpButton").style.display = "block";
+            } else {
+                document.getElementById("scrollUpButton").style.display = "none";
+            }
+        }
+
+        // Scroll to the top of the document when the user clicks on the scroll up button
+        function scrollToTop() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <!-- ################## scroll End  ################### -->
+
+
+
+
+
+
+
+
+
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
