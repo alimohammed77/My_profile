@@ -311,7 +311,7 @@ img {
 }
 
 .home__blob-img {
-  width: 360px;
+  width: 450px;
 }
 
 /*BUTTONS*/
@@ -468,7 +468,6 @@ div p {
 
 
 /* ===== FOOTER 1 =====*/
-
 footer {
   background-color: #f8f8f8;
   padding: 20px;
